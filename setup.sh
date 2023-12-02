@@ -17,7 +17,8 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y \
     python3-pip \
     nodejs \
     npm \
-    unzip
+    unzip \
+    zip
 
 # Add Docker GPG key and repository
 sudo DEBIAN_FRONTEND=noninteractive install -m 0755 -d /etc/apt/keyrings
